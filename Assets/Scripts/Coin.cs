@@ -38,7 +38,7 @@ public class Coin : MonoBehaviour
     void OnCollisionEnter2D(Collision2D collision)
     {
         // Check if the coin hit an enemy
-        if (collision.gameObject.GetComponent<EnemyController>() != null)
+        if (collision.gameObject.GetComponent<PlayerController>() != null)
         {
             // Destroy the enemy
             Destroy(collision.gameObject);
