@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 01fab20b315994398b4ee123f4f5d38e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 928623613725472704
+    second: LegoParts2_0
+  - first:
+      213: -457139059943530255
+    second: LegoParts2_1
+  - first:
+      213: 508804905937823412
+    second: LegoParts2_2
+  - first:
+      213: -2741130606621727708
+    second: LegoParts2_3
+  - first:
+      213: 8471154845126515584
+    second: LegoParts2_4
+  - first:
+      213: 3863664409816042830
+    second: LegoParts2_5
+  - first:
+      213: 1825898022860353417
+    second: LegoParts2_6
+  - first:
+      213: -9152817008527093874
+    second: LegoParts2_7
+  - first:
+      213: -8659161505480847630
+    second: LegoParts2_8
+  - first:
+      213: -1469642408782957051
+    second: LegoParts2_9
+  - first:
+      213: -1771011696471249187
+    second: LegoParts2_10
+  - first:
+      213: 143210053668759235
+    second: LegoParts2_11
+  - first:
+      213: -3705146927649803806
+    second: LegoParts2_12
+  - first:
+      213: -9180048598031686197
+    second: LegoParts2_13
+  - first:
+      213: -4104150176913835429
+    second: LegoParts2_14
+  - first:
+      213: 3005164763632416836
+    second: LegoParts2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LegoParts2_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1180
+        width: 202
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c77522b14223ec00800000000000000
+      internalID: 928623613725472704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1180
+        width: 215
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f02c1f627ae7a9f0800000000000000
+      internalID: -457139059943530255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_2
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1180
+        width: 203
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6666ebd53af0700800000000000000
+      internalID: 508804905937823412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 944
+        width: 203
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4246c558c3c85f9d0800000000000000
+      internalID: -2741130606621727708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 944
+        width: 216
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b581513769f8570800000000000000
+      internalID: 8471154845126515584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 944
+        width: 203
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d87666f4e7e9530800000000000000
+      internalID: 3863664409816042830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 721
+        width: 190
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98feda8e394e65910800000000000000
+      internalID: 1825898022860353417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 721
+        width: 216
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fc698ac69aaf080800000000000000
+      internalID: -9152817008527093874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_8
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 721
+        width: 190
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fec31d2d7a74d780800000000000000
+      internalID: -8659161505480847630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 511
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50674a50408ca9be0800000000000000
+      internalID: -1469642408782957051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 511
+        width: 216
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddee4cace3a1c67e0800000000000000
+      internalID: -1771011696471249187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_11
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 511
+        width: 190
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6e039f8c8ccf100800000000000000
+      internalID: 143210053668759235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 274
+        width: 202
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1bdc0008ca49cc0800000000000000
+      internalID: -3705146927649803806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_13
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 274
+        width: 202
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5af75207ae99080800000000000000
+      internalID: -9180048598031686197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_14
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 275
+        width: 216
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ab138a8212b07c0800000000000000
+      internalID: -4104150176913835429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LegoParts2_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 51
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448b4d33e6d74b920800000000000000
+      internalID: 3005164763632416836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LegoParts2_0: 928623613725472704
+      LegoParts2_1: -457139059943530255
+      LegoParts2_10: -1771011696471249187
+      LegoParts2_11: 143210053668759235
+      LegoParts2_12: -3705146927649803806
+      LegoParts2_13: -9180048598031686197
+      LegoParts2_14: -4104150176913835429
+      LegoParts2_15: 3005164763632416836
+      LegoParts2_2: 508804905937823412
+      LegoParts2_3: -2741130606621727708
+      LegoParts2_4: 8471154845126515584
+      LegoParts2_5: 3863664409816042830
+      LegoParts2_6: 1825898022860353417
+      LegoParts2_7: -9152817008527093874
+      LegoParts2_8: -8659161505480847630
+      LegoParts2_9: -1469642408782957051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
