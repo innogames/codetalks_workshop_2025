@@ -1,12 +1,13 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Coin : MonoBehaviour
 {
-    [SerializeField] private Timer timer;
+    [FormerlySerializedAs("timer")] [SerializeField] private CoinStopWatch m_coinStopWatch;
 
     private void Awake()
     {
-        this.timer ??= FindFirstObjectByType<Timer>();
+        this.m_coinStopWatch ??= FindFirstObjectByType<CoinStopWatch>();
     }
 
 
@@ -15,7 +16,7 @@ public class Coin : MonoBehaviour
         // Check if the coin hit an enemy
         if (other.gameObject.GetComponent<PlayerController>() != null)
         {
-            this.timer.IncreaseCoinCount();
+            this.m_coinStopWatch.IncreaseCoinCount();
             // Destroy the enemy
             Destroy(gameObject);
             

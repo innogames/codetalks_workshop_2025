@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using Mono.Cecil;
 using UnityEngine;
 
-public class Timer : MonoBehaviour
+public class CoinStopWatch : MonoBehaviour
 {
     [SerializeField] private int coinGoal;
     
