@@ -3,7 +3,7 @@ using UnityEngine.Serialization;
 
 public class Coin : MonoBehaviour
 {
-    [FormerlySerializedAs("timer")] [SerializeField] private CoinStopWatch m_coinStopWatch;
+    [SerializeField] private CoinStopWatch m_coinStopWatch;
 
     private void Awake()
     {
@@ -17,10 +17,9 @@ public class Coin : MonoBehaviour
         if (other.gameObject.GetComponent<PlayerController>() != null)
         {
             this.m_coinStopWatch.IncreaseCoinCount();
+            
             // Destroy the enemy
             Destroy(gameObject);
-            
-            // Optional: Add particle effect or sound here
         }
     }
 }
