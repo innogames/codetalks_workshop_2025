@@ -6,10 +6,10 @@ public class PlayerController : MonoBehaviour
 	[Header("Input Actions")]
 	[SerializeField]
 	private InputActionReference move;
-	
+
 	[SerializeField]
 	public InputActionReference jump;
-	
+
 	[Header("General References")]
 	[SerializeField]
 	private Animator animator;
@@ -18,68 +18,56 @@ public class PlayerController : MonoBehaviour
 	private Rigidbody2D rigidbody2d;
 
 	[Header("Movement Settings")]
-	[SerializeField] 
+	[SerializeField]
 	private float moveSpeed = 5f;
-	
-	[SerializeField] 
+
+	[SerializeField]
 	private float jumpForce = 10f;
-	
+
 	[Header("Collision Settings")]
-	[SerializeField] 
+	[SerializeField]
 	private LayerMask groundLayer;
-	
-	[SerializeField] 
+
+	[SerializeField]
 	private LayerMask wallLayer;
-	
-	[SerializeField] 
+
+	[SerializeField]
 	private float groundCheckRadius = 0.2f;
-	
-	[SerializeField] 
+
+	[SerializeField]
 	private float wallCheckDistance = 0.6f;
 
 	private Vector2 moveDirection;
 	private bool facingRight = true;
 
-	private void HandleMovement()
-	{
-		this.moveDirection = this.move.action.ReadValue<Vector2>();
-		this.rigidbody2d.linearVelocity = new Vector2(
-			this.moveDirection.x * this.moveSpeed, 
-			this.rigidbody2d.linearVelocity.y
-		);
-	}
-	
 	void Update()
 	{
-		this.HandleMovement();
-		this.HandleJump();
-		this.HandleAnimation();
+		HandleMovement();
+		HandleJump();
+		HandleAnimation();
+	}
+
+	private void HandleMovement()
+	{
+		moveDirection = move.action.ReadValue<Vector2>();
+		rigidbody2d.linearVelocity = new Vector2(moveDirection.x * moveSpeed, rigidbody2d.linearVelocityY);
 	}
 
 	private void HandleJump()
 	{
-		var ground = Physics2D.OverlapCircle(
-			this.transform.position, 
-			this.groundCheckRadius, 
-			this.groundLayer
-		);
-		if (ground is not null && this.jump.action.triggered)
+		var isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundLayer);
+		if (jump.action.triggered && isGrounded)
 		{
-			this.rigidbody2d.AddForce(Vector2.up * this.jumpForce, ForceMode2D.Impulse);
+			rigidbody2d.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 		}
 	}
 
 	private void HandleAnimation()
 	{
-		this.animator.SetFloat("Walk", this.moveDirection.x != 0f ? 1f : 0f);
-
-		if (this.moveDirection.x != 0f)
+		animator.SetFloat("Walk", this.moveDirection.x != 0f ? 1f : 0f);
+		if (moveDirection.x != 0f)
 		{
-			this.transform.localScale = new Vector3(
-				this.moveDirection.x >= 0f ? 1f : -1f,
-				1f,
-				1f
-			);
+			transform.localScale = new Vector3(moveDirection.x >= 0 ? 1 : -1, 1, 1);
 		}
 	}
 }
