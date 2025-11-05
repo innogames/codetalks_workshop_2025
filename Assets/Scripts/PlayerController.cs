@@ -53,6 +53,7 @@ public class PlayerController : MonoBehaviour
 	{
 		this.HandleMovement();
 		this.HandleJump();
+		this.HandleAnimation();
 	}
 
 	private void HandleJump()
@@ -65,6 +66,20 @@ public class PlayerController : MonoBehaviour
 		if (ground is not null && this.jump.action.triggered)
 		{
 			this.rigidbody2d.AddForce(Vector2.up * this.jumpForce, ForceMode2D.Impulse);
+		}
+	}
+
+	private void HandleAnimation()
+	{
+		this.animator.SetFloat("Walk", this.moveDirection.x != 0f ? 1f : 0f);
+
+		if (this.moveDirection.x != 0f)
+		{
+			this.transform.localScale = new Vector3(
+				this.moveDirection.x >= 0f ? 1f : -1f,
+				1f,
+				1f
+			);
 		}
 	}
 }
