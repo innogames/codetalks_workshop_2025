@@ -42,5 +42,12 @@ public class PlayerController : MonoBehaviour
 
 	void Update()
 	{
+		this.HandleMovement();
+	}
+
+	private void HandleMovement()
+	{
+		this.moveDirection = this.move.action.ReadValue<Vector2>();
+		this.rigidbody2d.linearVelocity = new Vector2(this.moveDirection.x * this.moveSpeed, this.rigidbody2d.linearVelocity.y);
 	}
 }
