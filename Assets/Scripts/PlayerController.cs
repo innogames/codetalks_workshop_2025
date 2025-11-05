@@ -40,14 +40,31 @@ public class PlayerController : MonoBehaviour
 	private Vector2 moveDirection;
 	private bool facingRight = true;
 
-	void Update()
-	{
-		this.HandleMovement();
-	}
-
 	private void HandleMovement()
 	{
 		this.moveDirection = this.move.action.ReadValue<Vector2>();
-		this.rigidbody2d.linearVelocity = new Vector2(this.moveDirection.x * this.moveSpeed, this.rigidbody2d.linearVelocity.y);
+		this.rigidbody2d.linearVelocity = new Vector2(
+			this.moveDirection.x * this.moveSpeed, 
+			this.rigidbody2d.linearVelocity.y
+		);
+	}
+	
+	void Update()
+	{
+		this.HandleMovement();
+		this.HandleJump();
+	}
+
+	private void HandleJump()
+	{
+		var ground = Physics2D.OverlapCircle(
+			this.transform.position, 
+			this.groundCheckRadius, 
+			this.groundLayer
+		);
+		if (ground is not null && this.jump.action.triggered)
+		{
+			this.rigidbody2d.AddForce(Vector2.up * this.jumpForce, ForceMode2D.Impulse);
+		}
 	}
 }
